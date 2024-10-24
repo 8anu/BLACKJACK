@@ -1,0 +1,90 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(80, 227, 66);
+    background-image: url("bg_image_1.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Container for the game */
+  .game-container {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+  }
+  
+  /* Heading */
+  h1 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Cards container */
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    margin-bottom: 10px;
+  }
+  
+  /* msg container */
+  .msg-container {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: auto;
+  }
+  
+  /* Styling for card images */
+  .card {
+    width: 70px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Text styling for sum and result */
+  #sum {
+    font-weight: bold;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  #result {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: red;
+  }
+  
+  /* Button container */
+  .button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: black;
+    color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
